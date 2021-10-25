@@ -1,0 +1,41 @@
+input[type=radio] {
+	display: none;
+}
+
+label { 
+  display:block;
+	cursor: pointer;
+	position: relative;
+  transition: 0.1s ease-in;
+ margin-top: 0.1em;
+ margin-left: 0.1em;
+}
+
+label:hover {
+  background-color: rgb(241, 241, 241);
+    /* border-bottom: 1px solid rgb(19, 19, 19); */
+}
+
+label:before {
+  border-radius: 15px;
+    display: inline-block;
+	content: "";
+	width: 1em;
+	height: 1em;
+	position:relative;
+
+  margin: 0rem 0em 0em 0em;
+  transition: 0.1s ease-in;
+  background: transparent url("big-circle.svg") no-repeat center; 
+  border: 2px solid #00608d;
+}
+
+
+input[type=radio]:checked + label:before {
+  /* margin-left: 0.1em; */
+
+    /* content: "⬤";
+  color: rgb(255, 0, 0);  */
+    background: transparent url("smal-circle.svg") no-repeat center; 
+    
+}

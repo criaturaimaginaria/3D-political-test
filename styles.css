@@ -1,0 +1,348 @@
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url("fontFamily/LibreBaskerville-Italic.ttf");
+}
+@font-face {
+    font-family: "LibreBaskervilleRegular";
+    src: url("fontFamily/LibreBaskerville-Regular.ttf");
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px; 
+    font-size: 16px;
+}
+
+body{
+    background-color: rgb(149, 149, 149);
+    
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;   
+    background-image: url(backSquares.jpg) ;
+    background-size:cover;
+  
+    background-attachment: fixed ;
+   
+}
+
+
+header{
+    
+    font-family: "LibreBaskerville";
+    background-color: rgba(49, 49, 49, 0.972);
+    height: 10em;
+    color: rgb(223, 226, 209);
+    text-align: center;
+}
+
+
+
+header p {
+     font-family: LibreBaskerville;
+     margin-top: 1em ;
+     font-size: 2.7em;
+}
+
+
+
+section{
+    font-family: LibreBaskervilleRegular;
+    font-size: 16px;
+    background-color: rgb(224, 224, 224);
+    width: 88vw;
+    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
+
+.title-description{
+    
+    font-family:LibreBaskervilleRegular ;
+    margin-top: 2em;
+    margin-left: 2.5em;
+    width: 70vw;
+}
+
+.title-description p{
+    font-size: 1.2em;
+}
+
+h1{
+    font-family:LibreBaskerville ;
+    display: inline;
+    font-size: 1.8em;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+/* #dropdown{
+    transition: 1s;
+}
+.quiz-question{
+    transition: 1s;
+}
+
+.h{
+    display: none;
+    transition: 1s;
+} */
+
+
+
+.wrapper-container{
+   text-align:inherit;
+    width: 50vw;
+    margin-top: 2em;
+    font-size: 1rem;
+    margin-left: 2em;
+}
+
+.btn{
+    margin: 0.5em 0em 0.5em 0em;
+    font-size: 2.2em;
+    padding:0.1em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(226, 226, 226);
+    border-color: rgb(24, 117, 82);
+    border-bottom: 3px solid rgb(0, 45, 66);
+    transition: 0.1s;
+}
+.btn:hover{
+    font-size: 2.2em;
+    padding:0.1em;
+    color: rgb(24, 24, 24);
+    background-color: rgb(246, 246, 246);
+    border-color: rgb(75, 165, 130);
+    border-bottom: 3px solid rgb(0, 5, 15);
+}
+
+h3{
+    font-size: 1em;
+}
+
+section B {
+    font-size: 1.1em;
+}
+section p {
+    font-size: 1.1em;
+}
+
+
+.symbol{
+    width: 8.7em;
+}
+
+
+footer{
+    /* border-top: 1px solid rgb(0, 0, 0); */
+    background-color: rgb(49, 49, 49);
+    height: 7.8em;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+
+.gitHub{
+    font-size: 1.3em;
+    padding-top: 2em;
+    color: white;
+    border-bottom: none;
+    text-decoration: none;
+}
+.gitHub:hover{
+    color: rgb(173, 173, 173);
+}
+
+
+/* ------------------------ */
+
+
+.accordion{
+    background-color: rgb(218, 218, 218);
+    /* background-color: #1d8d7100; */
+    /* color: #fff; */
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 0.5em;
+    width: 70vw;
+    text-align: left;
+    border: 1px solid rgb(53, 53, 53);
+    transition: all 0.5s;
+    font-size: 1.5em;
+    outline: none;
+}
+.active, .accordion:hover{
+    background-color: #a19ea3;
+}
+.panel{
+   font-size: 16px;
+    background-color: #fff;
+    overflow: hidden;
+    max-height:0;
+   transition: max-height 0.5s ease-out;
+   width: 70vw;
+}
+
+.panel label{
+    font-size: 1.3em;
+}
+
+
+
+
+/* responsive /////////////////////////////////////// */
+
+@media only screen and (max-width: 415px ){
+*{
+    font-size: 8px;
+}
+
+header{
+    font-size: 8px;
+}
+
+header p {
+    margin-top: 1.8em ;
+    font-size: 2.5em;
+}
+.flex-container{
+    background-image: none;
+}
+
+.title-description{
+    margin-top: 1.8em;
+    margin-left: 2em;
+    width: 93.5vw;
+}
+
+h1{
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+.title-description p{
+    font-size: 2em;
+}
+
+/* h2{
+    font-size: 2.3em;
+} */
+/* .wrapper-container label{
+        font-size: 1.8em;
+  
+ } */
+section{
+   
+    width: 100vw;
+    margin-top: 0vw;
+    margin-bottom: 0em;
+    
+}
+.wrapper-container{
+    text-align:inherit;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .accordion{
+    width: 90vw;
+    font-size: 2em;
+}
+
+.panel{
+    width: 90vw;
+    font-size: 1.5em;
+}
+
+ .panel label{
+    font-size: 2em;
+    font-size: 1em;
+}
+
+.btn{
+    font-size: 4.5em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(226, 226, 226);
+    border-color: rgb(24, 117, 82);
+    border-bottom: 3px solid rgb(0, 45, 66);
+    transition: 0.1s;
+}
+.btn:hover{
+ 
+    font-size: 4.5em;
+    color: rgb(24, 24, 24);
+    background-color: rgb(246, 246, 246);
+    border-color: rgb(75, 165, 130);
+    border-bottom: 3px solid rgb(0, 5, 15);
+}
+
+h3{
+    font-size: 2em;
+}
+
+
+
+ section B{
+    font-size: 2em;
+}
+ section p{
+     font-size: 2em;
+ }
+
+.symbol{
+    width:13em;
+}
+
+footer  {
+    height: 15em;
+    text-align: start;
+    padding-left: 1em;
+}
+
+footer p {
+    color: white;
+    margin-top: 0.5em;
+    font-size: 2em;
+    margin-top: 2.2em;
+    margin-bottom: 0.3em;
+    margin-left: 0.8em;
+}
+
+.gitHub{
+    margin-left: 0.8em;
+    font-size: 2.2em;
+}
+
+
+}
+
+
+/* @media only screen and (max-width: 500px )and(max-width:100px){
+
+} */
+
+
+
+/* 
+https://gophercises.com/
+
+https://www.google.com/intl/es-419_ar/forms/about/
+
+https://www.encuestafacil.com/portada.aspx
+
+https://atlasintel.org/
+
+https://encuesta.atlasintel.org/1a/argentina?gclid=Cj0KCQjwsZKJBhC0ARIsAJ96n3Wl4TT5PHevjl4f7hFKvc-wu7xjqYFLM4uvsXN07gM9QabyBmA2WlYaAp81EALw_wcB */
