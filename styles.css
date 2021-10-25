@@ -15,47 +15,81 @@
 }
 
 body{
-    background-color: rgb(149, 149, 149);  
+    background-color: rgb(221, 221, 221);  
 }
 
 .flex-container{
     display: flex;
     flex-direction: column;   
-    background-image: url(background.jpg) ;
+    background-image: url(background2.jpg) ;
     background-size:cover;
-    
     background-attachment: fixed ;
-   
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fff;
+    width: 80vw;
+    height: 6.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav div{
+    display: flex; 
+    /* width: 50%; */
+    align-items: center;
+}
+.links{
+    flex-direction: row;
+    float: right;
+    align-content: flex-end;
+}
+
+.inicio {
+    margin-left: 1em;
+    color: rgb(206, 161, 37);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.inicio:hover {
+    color: rgb(223, 184, 77);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+ul{
+    top: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
 
 
-/* header{
-    font-family: "LibreBaskerville";
-    background-color: rgba(49, 49, 49, 0.972);
-    height: 10em;
-    color: rgb(223, 226, 209);
-    text-align: center;
+ul li a{
+    margin: 0.6em;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+    font-size: 1.3em;
+    transition: 0.1s;
 }
-
-
-
-header p {
-     font-family: LibreBaskerville;
-     margin-top: 1em ;
-     font-size: 2.7em;
-} */
+ul li a:hover{
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
 
 
 
 section{
     font-family: LibreBaskervilleRegular;
     font-size: 16px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(241, 241, 241);
     width: 100%;
-    margin-top: 36.5vh;
+    margin-top: 45vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.5em;
+    /* margin-bottom: 0.5em; */
 }
 
 .title-description{
@@ -140,7 +174,7 @@ section p {
 
 footer{
     /* border-top: 1px solid rgb(0, 0, 0); */
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(77, 77, 77);
     height: 7.8em;
     text-align: center;
 }
@@ -206,17 +240,15 @@ footer p {
     font-size: 8px;
 }
 
-header{
+/* header{
     font-size: 8px;
 }
 
 header p {
     margin-top: 1.8em ;
     font-size: 2.5em;
-}
-.flex-container{
-    background-image: none;
-}
+} */
+
 
 .title-description{
     margin-top: 1.8em;
@@ -241,12 +273,11 @@ h1{
   
  } */
 section{
-   
-    width: 100vw;
-    margin-top: 0vw;
-    margin-bottom: 0em;
-    
+    width: 100%;
+    margin-top: 36.5vh;
+    /* margin-bottom: 0em; */
 }
+
 .wrapper-container{
     text-align:inherit;
      width: 90%;
