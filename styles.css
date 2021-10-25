@@ -23,7 +23,7 @@ body{
 .flex-container{
     display: flex;
     flex-direction: column;   
-    background-image: url(backSquares.jpg) ;
+    background-image: url(background.jpg) ;
     background-size:cover;
   
     background-attachment: fixed ;
