@@ -15,9 +15,7 @@
 }
 
 body{
-    background-color: rgb(149, 149, 149);
-    
-    
+    background-color: rgb(149, 149, 149);  
 }
 
 .flex-container{
@@ -25,14 +23,13 @@ body{
     flex-direction: column;   
     background-image: url(background.jpg) ;
     background-size:cover;
-  
+    
     background-attachment: fixed ;
    
 }
 
 
-header{
-    
+/* header{
     font-family: "LibreBaskerville";
     background-color: rgba(49, 49, 49, 0.972);
     height: 10em;
@@ -46,7 +43,7 @@ header p {
      font-family: LibreBaskerville;
      margin-top: 1em ;
      font-size: 2.7em;
-}
+} */
 
 
 
@@ -54,8 +51,8 @@ section{
     font-family: LibreBaskervilleRegular;
     font-size: 16px;
     background-color: rgb(224, 224, 224);
-    width: 88vw;
-    margin-top: 2vw;
+    width: 100%;
+    margin-top: 36.5vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.5em;
