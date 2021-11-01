@@ -292,7 +292,8 @@ how to  close the opened Tab when I click\ again on it (when he open)
 
 
 
-// for this we need to create a server, we can use : python -m http.server
+// for this we need to create a server, we can use : python -m http.server 
+//or node with http-server
 // fetch("./data.json")
 // .then(response => { return response.json();})
 // .then(data => console.log(data));
