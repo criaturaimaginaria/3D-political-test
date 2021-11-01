@@ -1,0 +1,141 @@
+/* responsive /////////////////////////////////////// */
+
+@media only screen and (max-width: 415px ){
+    *{
+        font-size: 8px;
+    }
+    
+    /* header{
+        font-size: 8px;
+    }
+    
+    header p {
+        margin-top: 1.8em ;
+        font-size: 2.5em;
+    } */
+    
+    
+    .title-description{
+        margin-top: 1.8em;
+        margin-left: 2em;
+        width: 93.5vw;
+    }
+    
+    h2{
+        display: inline-block;
+        font-size: 2.5em;
+    }
+    
+    .title-description p{
+        font-size: 2em;
+    }
+    
+    /* h2{
+        font-size: 2.3em;
+    } */
+    /* .wrapper-container label{
+            font-size: 1.8em;
+      
+     } */
+    section{
+        width: 100%;
+        margin-top: 36.5vh;
+        /* margin-bottom: 0em; */
+    }
+    
+    .wrapper-container{
+        text-align:inherit;
+         width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+    
+     .accordion{
+        width: 90vw;
+        font-size: 2em;
+    }
+    
+    .panel{
+        width: 90vw;
+        font-size: 1.5em;
+    }
+    
+     .panel label{
+        font-size: 2em;
+        font-size: 1em;
+    }
+    
+    .btn{
+        font-size: 4.5em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(226, 226, 226);
+        border-color: rgb(24, 117, 82);
+        border-bottom: 3px solid rgb(0, 45, 66);
+        transition: 0.1s;
+    }
+    .btn:hover{
+     
+        font-size: 4.5em;
+        color: rgb(24, 24, 24);
+        background-color: rgb(246, 246, 246);
+        border-color: rgb(75, 165, 130);
+        border-bottom: 3px solid rgb(0, 5, 15);
+    }
+    
+    h3{
+        font-size: 2em;
+    }
+    
+    
+    
+     section B{
+        font-size: 2em;
+    }
+     section p{
+         font-size: 2em;
+     }
+    
+    .symbol{
+        width:13em;
+    }
+    
+    footer  {
+        height: 15em;
+        text-align: start;
+        padding-left: 1em;
+    }
+    
+    footer p {
+        color: white;
+        margin-top: 0.5em;
+        font-size: 2em;
+        margin-top: 2.2em;
+        margin-bottom: 0.3em;
+        margin-left: 0.8em;
+    }
+    
+    .gitHub{
+        margin-left: 0.8em;
+        font-size: 2.2em;
+    }
+    
+    
+    }
+    
+    
+    /* @media only screen and (max-width: 500px )and(max-width:100px){
+    
+    } */
+    
+    
+    
+    /* 
+    https://gophercises.com/
+    
+    https://www.google.com/intl/es-419_ar/forms/about/
+    
+    https://www.encuestafacil.com/portada.aspx
+    
+    https://atlasintel.org/
+    
+    https://encuesta.atlasintel.org/1a/argentina?gclid=Cj0KCQjwsZKJBhC0ARIsAJ96n3Wl4TT5PHevjl4f7hFKvc-wu7xjqYFLM4uvsXN07gM9QabyBmA2WlYaAp81EALw_wcB */
