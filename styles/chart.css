@@ -1,12 +1,11 @@
 .arrows{
-    background-image: url(arrows.png);
+    background-image: url(./chart/arrows.png);
     background-repeat: no-repeat;
     background-size: cover;
   
     height: 40em;
     width: 40em;
     margin-left: 8%;
-    
     margin-bottom: 2em;
 }
 
@@ -16,7 +15,7 @@
 } */
 
 .chart{
-    background-image: url(square2.jpg);
+    background-image: url(./chart/square2.jpg);
     background-size: cover;
     margin-left: 10em;
     margin-bottom: -31.5em;
@@ -32,7 +31,7 @@
 } */
 
 .chart2{
-    background-image: url(square1.png);
+    background-image: url(./chart/square1.png);
     background-size: cover;
     margin-left: 10em;
     margin-bottom: 7.5em;
@@ -44,7 +43,7 @@
 }
 
 .chart3{
-    background-image: url(square3.jpg);
+    background-image: url(./chart/square3.jpg);
     background-size: cover;
     margin-left: 10em;
    
@@ -107,7 +106,7 @@
       font-size: 8px;
   }
     .arrows{
-        background-image: url(arrows3.png);
+        background-image: url(arrows2.png);
         height: 48rem;
         width: 42rem;
         margin-top: 5em;
