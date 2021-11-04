@@ -236,34 +236,80 @@ function total() {
 
 
 // ---------------------------------------------------
-let acc = document.getElementsByClassName("accordeon");
+// let acc = document.getElementsByClassName("accordeon");
 
-for (let i = 0; i < acc.length; i++){
-    acc[i].addEventListener('click', function(){
-      //  console.log(acc)
-      //Close other tabs
-        for(var j = 0; j < acc.length; j++) {
-      acc[j].nextElementSibling.style.maxHeight = null;
-      acc[j].classList.remove('active');
-          
-    }
-  
-        this.classList.toggle("active");
-        
-        /*Toggle between hiding and showing*/
-        let panel = this.nextElementSibling;
-        if(panel.style.maxHeight){
-           panel.style.maxHeight = null;
-        } else{
-          panel.style.maxHeight = panel.scrollHeight + 'px';
-        }
+// for (let i = 0; i < acc.length; i++){
+//     acc[i].addEventListener('click', function(){
+//       //  console.log(acc)
+//       //Close other tabs
+//         for(var j = 0; j < acc.length; j++) {
+//       acc[j].nextElementSibling.style.maxHeight = null;
+//       acc[j].classList.remove('active');     
+//     }
+//         this.classList.toggle("active");
       
-        
-    });
-}
+//         /*Toggle between hiding and showing*/
+//         let panel = this.nextElementSibling;
+//         if(panel.style.maxHeight){
+//            panel.style.maxHeight = null;
+//         } else{
+//           panel.style.maxHeight = panel.scrollHeight + 'px';
+//         }
+      
+//     });
+// }
+
+// for (let i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+    
+//       for(var j = 0; j < acc.length; j++) {
+//             acc[j].nextElementSibling.style.maxHeight = null;
+//             acc[j].classList.remove('active');     
+//           }
+
+//     let panel = this.nextElementSibling;
+   
+//     if (panel.style.maxHeight) {
+//       panel.style.maxHeight = null;
+//     } else {
+//       panel.style.maxHeight = panel.scrollHeight + "px";
+//     } 
+    
+    
+//   });
+// }
 
 
 
+
+
+$(document).ready(function() {
+
+  function close_accordion_section() {
+      $('.accordion .title').removeClass('active');
+      $('.accordion .section-content').slideUp(500).removeClass('open');
+  }
+
+  $('.title').click(function(e) {
+      // Grab current anchor value
+      var currentAttrValue = $(this).attr('href');
+
+      if($(e.target).is('.active')) {
+          close_accordion_section();
+      }else {
+          close_accordion_section();
+
+          // Add active class to section title
+          $(this).addClass('active');
+          // Open up the hidden content panel
+          $('.accordion ' + currentAttrValue).slideDown(500).addClass('open'); 
+      }
+
+      e.preventDefault();
+  });
+
+});//ready 
 
 
 
