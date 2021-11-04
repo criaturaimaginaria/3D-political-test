@@ -73,7 +73,7 @@ socialMiddle =  {
   2: {
     name: "Anarco colectivismo",
     description: "tiene que ver con bakunin, pero qu ediferencia hay con el mutualismo ?",
-    symbol: './styles/symbols/fdff.png'
+    symbol: './styles/symbols/f fffdff.png'
   },
 
   3: {

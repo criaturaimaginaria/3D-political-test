@@ -26,6 +26,8 @@ body{
     background-attachment: fixed ;
 }
 
+/* ---******-----nav----*******---- */
+
 nav{
     display: grid;
     grid-template-columns: auto auto;
@@ -35,13 +37,13 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-.inicio {
+.nav__inicio {
     margin-left: 1em;
     color: rgb(206, 161, 37);
     text-decoration: none;
     font-size: 1.5em;
 }
-.inicio:hover {
+.nav__inicio:hover {
     color: rgb(223, 184, 77);
     text-decoration: none;
     font-size: 1.5em;
@@ -50,7 +52,7 @@ nav div{
     display: flex; 
     align-items: center;
 }
-.links{
+.nav__links{
     display: flex;
     margin-left: auto;
     margin-right: 0;
@@ -74,6 +76,7 @@ ul li a:hover{
     color: rgb(190, 190, 190);
     text-decoration: none;
 }
+/* ---******---------*******---- */
 
 .title-container{
     width: 100%;
@@ -116,7 +119,7 @@ h2{
 }
 
 
-.wrapper-container{
+.questions{
    text-align:inherit;
     width: 50vw;
     margin-top: 2em;
@@ -166,21 +169,21 @@ footer p {
     margin-top: 2em;
 }
 
-.gitHub{
+.footer__gitHub{
     font-size: 1.3em;
     padding-top: 2em;
     color: white;
     border-bottom: none;
     text-decoration: none;
 }
-.gitHub:hover{
+.footer__gitHub:hover{
     color: rgb(173, 173, 173);
 }
 
 
 /* ------------------------ */
 
-.accordion{
+.accordeon{
     background-color: rgb(236, 236, 236);
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -192,10 +195,10 @@ footer p {
     font-size: 1.5em;
     outline: none;
 }
-.active, .accordion:hover{
+.active, .accordeon:hover{
     background-color: #d8d8d8;
 }
-.panel{
+.accordeon__panel{
    font-size: 16px;
     background-color: #fff;
     overflow: hidden;
@@ -204,6 +207,6 @@ footer p {
    width: 70vw;
 }
 
-.panel label{
+.accordeon__panel label{
     font-size: 1.3em;
 }

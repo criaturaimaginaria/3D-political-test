@@ -9,12 +9,12 @@
     margin-bottom: 2em;
 }
 
-/* .chart-container{
+/* .arrows__chart-container{
     padding-top: -8em;
     margin-top: -5em;
 } */
 
-.chart{
+.arrows__chart{
     background-image: url(./chart/square2.jpg);
     background-size: cover;
     margin-left: 10em;
@@ -26,11 +26,11 @@
     border: 2px solid black;
 }
 
-/* .chart p {
+/* .arrows__chart p {
     transform:  rotateX(00deg)skewX(24deg) ;
 } */
 
-.chart2{
+.arrows__chart2{
     background-image: url(./chart/square1.png);
     background-size: cover;
     margin-left: 10em;
@@ -42,7 +42,7 @@
     border: 2px solid black;
 }
 
-.chart3{
+.arrows__chart3{
     background-image: url(./chart/square3.jpg);
     background-size: cover;
     margin-left: 10em;
@@ -114,20 +114,20 @@
     }
     
     /* 1 */
-    .chart2{
+    .arrows__chart2{
         margin-top: -8em;
         margin-bottom: 0em;  
         margin-left: 10em;  
     }
     /* 2 */
-    .chart{
+    .arrows__chart{
         margin-top: -8em;
         margin-bottom: -19.4em;
         margin-left: 10em;  
     }
 
     /* 3 */
-    .chart3{
+    .arrows__chart3{
          margin-left: 10em;
         margin-top: 15em;
         width: 21em;
