@@ -9,13 +9,12 @@ const prog = document.querySelector(".prog")
 
 
 // this function gives each of the answers 0 points
-function populate() { 
-  econPoints=0
-  poliPoints=0
-  socialPoints=0
+function fill() { 
+ let  econPoints = 0
+ let poliPoints = 0
+ let socialPoints = 0
   for (let i = 0; i < 25; i++) { 
       Quest[i] = {econPoints,poliPoints,socialPoints}
-      
     } 
 // console.log(Quest)
 } 
