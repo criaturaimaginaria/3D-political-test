@@ -243,9 +243,11 @@ $(document).ready(function() {
       $('.accordion .section-content').slideUp(400).removeClass('open');
   }
 
+
   $('.title').click(function(e) {
       // Grab current anchor value
-      var currentAttrValue = $(this).attr('href');
+      let currentAttrValue = $(this).attr('href');
+      
 
       if($(e.target).is('.active')) {
           close_accordion_section();

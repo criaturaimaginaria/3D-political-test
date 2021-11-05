@@ -106,7 +106,8 @@
       font-size: 8px;
   }
     .arrows{
-        background-image: url(arrows2.png);
+        background-image: url(./chart/arrows2.png);
+        background-size: cover;
         height: 48rem;
         width: 42rem;
         margin-top: 5em;
@@ -133,5 +134,7 @@
         width: 21em;
         height: 21em; 
     }
+
+    
 
 }
