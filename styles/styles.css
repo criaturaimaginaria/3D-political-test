@@ -222,10 +222,15 @@ section p {
     font-size: 1.1em;
 }
 
-
 .symbol{
     width: 8.7em;
 }
+
+/* buttons!!!!!!!!! */
+.toggle-button{
+    display: none;
+}
+/* ////////////////////// */
 
 footer{
     background-color: rgb(77, 77, 77);

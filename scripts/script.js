@@ -222,18 +222,22 @@ function total() {
   
   } 
 
+  
+const chartToggle = document.querySelector('.toggle-button');
+const chartToggleNew = document.querySelector('.toggle-button.new');
 //display the data from the file contents.js
 function contentDisplay(socArrow) { 
 
-  document.getElementById("result").innerHTML = `<br>  <B> ${(socArrow.name)} </B>  <br> 
+  document.getElementById("result").innerHTML = ` <br>  <B> ${(socArrow.name)} </B>  <br> 
  <p> ${(socArrow.description)} </p> <br>  <img src="${(socArrow.symbol)}" class="symbol" > `
+
+ chartToggle.style.cssText = `display: inline;`
+ chartToggleNew.style.cssText = `display: inline;`
 } 
   
+
+
 let acordion = document.querySelector(".quiz-question");
-
-
-
-
 //accordeon with jquery ---------------------------------------------
 $(document).ready(function() {
 
@@ -265,29 +269,7 @@ $(document).ready(function() {
 //-------------------------------------------------------- end accordion
 
 
-
-
-
-
-
-/*
-how to  close the opened Tab when I click\ again on it (when he open)
-*/
-// ------------------------pruebas--------------------
-// document.getElementById("result").innerHTML = `<br>  <B>${(progresista[8].name)} </B> <br> 
-// ${(progresista[8].description)}  <br>  <img src="${(progresista[8].symbol)}" class="symbol" > `
-
-
-
-
-// for this we need to create a server, we can use : python -m http.server 
-//or node with http-server
-// fetch("./data.json")
-// .then(response => { return response.json();})
-// .then(data => console.log(data));
-
-
-
+//Chart toggle buttonss ///////////////////////////////////////////
 
 const toggleBtn = document.querySelector('.toggle-button');
 const toggleBtnOriginal = document.querySelector('.toggle-button');
@@ -323,3 +305,5 @@ function toggleBottom () {
   arrows__chart2.classList.add('arrows__chart2--new');
   arrows__chart3.classList.add('arrows__chart3--new');
 }
+
+////////////////////////////////////////////////////////////////////
