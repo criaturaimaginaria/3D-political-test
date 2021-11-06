@@ -309,6 +309,7 @@ toggleBtnNew.addEventListener('click', function () {
 function toggleTop () {
   toggleBtnNew.classList.remove('active');
 	toggleBtnOriginal.classList.add('active');
+  consPoint.style.cssText = `background-color: white;border-radius: 10px;`
   arrows__chart.classList.remove('arrows__chart--new');
   arrows__chart2.classList.remove('arrows__chart2--new');
   arrows__chart3.classList.remove('arrows__chart3--new');
@@ -317,6 +318,7 @@ function toggleTop () {
 function toggleBottom () {
   toggleBtnNew.classList.add('active');
   toggleBtnOriginal.classList.remove('active');
+  consPoint.style.cssText = `background-color: red;border-radius: 10px;`
   arrows__chart.classList.add('arrows__chart--new');
   arrows__chart2.classList.add('arrows__chart2--new');
   arrows__chart3.classList.add('arrows__chart3--new');
