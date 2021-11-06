@@ -223,26 +223,24 @@ function total() {
   } 
 
 //display the data from the file contents.js
-  function contentDisplay(socArrow) { 
+function contentDisplay(socArrow) { 
 
-    document.getElementById("result").innerHTML = `<br>  <B> ${(socArrow.name)} </B>  <br> 
-   <p> ${(socArrow.description)} </p> <br>  <img src="${(socArrow.symbol)}" class="symbol" > `
-
-    } 
-
-    let acordion = document.querySelector(".quiz-question");
-
+  document.getElementById("result").innerHTML = `<br>  <B> ${(socArrow.name)} </B>  <br> 
+ <p> ${(socArrow.description)} </p> <br>  <img src="${(socArrow.symbol)}" class="symbol" > `
+} 
+  
+let acordion = document.querySelector(".quiz-question");
 
 
 
-//accordeon with jquery
+
+//accordeon with jquery ---------------------------------------------
 $(document).ready(function() {
 
   function close_accordion_section() {
       $('.accordion .title').removeClass('active');
       $('.accordion .section-content').slideUp(300).removeClass('open');
   }
-
 
   $('.title').click(function(e) {
       // Grab current anchor value
@@ -264,21 +262,11 @@ $(document).ready(function() {
   });
 
 }); 
+//-------------------------------------------------------- end accordion
 
 
 
 
-
-// acordion.addEventListener("click",function dropdown() { 
-//   let hola = document.querySelector('.hola')
-//   if(hola.style.display === "none"){
-//     hola.style.display = "inline" 
-//   }
-//   else if(hola.style.display === "inline" ){
-//     hola.style.display = "none" 
-//   }
-//   // document.querySelector('.hola').style.cssText = 'transition: 1s ;display:none; '  
-// } )
 
 
 
@@ -298,3 +286,38 @@ how to  close the opened Tab when I click\ again on it (when he open)
 // .then(response => { return response.json();})
 // .then(data => console.log(data));
 
+
+
+
+const toggleBtn = document.querySelector('.toggle-button');
+const toggleBtnOriginal = document.querySelector('.toggle-button');
+const toggleBtnNew = document.querySelector('.toggle-button.new');
+const makeActive = document.querySelector('.active');
+
+const arrows__chart= document.querySelector('.arrows__chart');
+const arrows__chart2 = document.querySelector('.arrows__chart2');
+const arrows__chart3 = document.querySelector('.arrows__chart3');
+
+toggleBtnOriginal.addEventListener('click', function () {
+  toggleTop();
+}, false);
+
+toggleBtnNew.addEventListener('click', function () {
+  toggleBottom();
+}, false);
+
+function toggleTop () {
+  toggleBtnNew.classList.remove('active');
+	toggleBtnOriginal.classList.add('active');
+  arrows__chart.classList.remove('arrows__chart--new');
+  arrows__chart2.classList.remove('arrows__chart2--new');
+  arrows__chart3.classList.remove('arrows__chart3--new');
+}
+
+function toggleBottom () {
+  toggleBtnNew.classList.add('active');
+  toggleBtnOriginal.classList.remove('active');
+  arrows__chart.classList.add('arrows__chart--new');
+  arrows__chart2.classList.add('arrows__chart2--new');
+  arrows__chart3.classList.add('arrows__chart3--new');
+}

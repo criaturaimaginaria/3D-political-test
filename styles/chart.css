@@ -25,10 +25,10 @@
     transform:  rotateX(-60deg) translateZ(125px) skewX(-24deg) ;
     border: 2px solid black;
 }
-
-/* .arrows__chart p {
-    transform:  rotateX(00deg)skewX(24deg) ;
-} */
+.arrows__chart--new {
+    background-image: url(./chart/chart2.2.jpg);
+    background-size: cover;
+  }
 
 .arrows__chart2{
     background-image: url(./chart/square1.png);
@@ -41,6 +41,10 @@
     transform:  rotateX(-60deg) skewX(-24deg); 
     border: 2px solid black;
 }
+.arrows__chart2--new {
+    background-image: url(./chart/chart1.1.jpg);
+    background-size: cover;
+  }
 
 .arrows__chart3{
     background-image: url(./chart/square3.jpg);
@@ -52,6 +56,10 @@
     transform:  rotateX(-60deg) translateZ(-125px) skewX(-24deg) ;
     border: 2px solid black;
 }
+.arrows__chart3--new {
+    background-image: url(./chart/chart3.3.jpg);
+    background-size: cover;
+  }
 
 
 /* -------------point circle--------------- */
@@ -106,6 +114,7 @@
       font-size: 8px;
   }
     .arrows{
+        overflow: hidden;
         background-image: url(./chart/arrows2.png);
         background-size: cover;
         height: 48rem;
