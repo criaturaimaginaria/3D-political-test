@@ -137,7 +137,7 @@ function contentNumber (myScore, VeScore, socScore) {
         socArrow = socialMiddle
       }
 
-      else if(socScore >= 6 && socScore <= 13  && myScore >= 13   && VeScore >= 6.8 && VeScore <= 14 ){
+      else if(socScore >= 6 && socScore <= 13  && myScore >= 13.5   && VeScore >= 6.8 && VeScore <= 13 ){
         contNumber = 7
         socArrow = socialMiddle
       }
@@ -153,7 +153,7 @@ function contentNumber (myScore, VeScore, socScore) {
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore <= 6.5 &&  VeScore >= 7 &&  VeScore <= 14){
+        else if(socScore >= 13 && myScore <= 6.5 &&  VeScore >= 7 &&  VeScore <= 13){
           contNumber = 1
           socArrow = progresista
         }
@@ -291,7 +291,10 @@ toggleBtnNew.addEventListener('click', function () {
 function toggleTop () {
   toggleBtnNew.classList.remove('active');
 	toggleBtnOriginal.classList.add('active');
-  consPoint.style.cssText = `background-color: white;border-radius: 10px;`
+
+  // consPoint.style.cssText = `background-color: white;border-radius: 10px;`
+  // midPoint.style.cssText = `background-color: white;border-radius: 10px;`
+  // progPoint.style.cssText = `background-color: white;border-radius: 10px;`
   arrows__chart.classList.remove('arrows__chart--new');
   arrows__chart2.classList.remove('arrows__chart2--new');
   arrows__chart3.classList.remove('arrows__chart3--new');
@@ -300,7 +303,10 @@ function toggleTop () {
 function toggleBottom () {
   toggleBtnNew.classList.add('active');
   toggleBtnOriginal.classList.remove('active');
-  consPoint.style.cssText = `background-color: red;border-radius: 10px;`
+  
+  // consPoint.style.cssText = `background-color: red;border-radius: 10px;`
+  // midPoint.style.cssText = `background-color: red;border-radius: 10px;`
+  // progPoint.style.cssText = `background-color: red;border-radius: 10px;`
   arrows__chart.classList.add('arrows__chart--new');
   arrows__chart2.classList.add('arrows__chart2--new');
   arrows__chart3.classList.add('arrows__chart3--new');
