@@ -240,7 +240,7 @@ $(document).ready(function() {
 
   function close_accordion_section() {
       $('.accordion .title').removeClass('active');
-      $('.accordion .section-content').slideUp(400).removeClass('open');
+      $('.accordion .section-content').slideUp(300).removeClass('open');
   }
 
 
@@ -257,7 +257,7 @@ $(document).ready(function() {
           // Add active class to section title
           $(this).addClass('active');
           // Open up the hidden content panel
-          $('.accordion ' + currentAttrValue).slideDown(400).addClass('open'); 
+          $('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
       }
 
       e.preventDefault();
