@@ -194,7 +194,7 @@ function contentNumber (myScore, VeScore, socScore) {
         }
 
   contentDisplay(socArrow[contNumber] )
-  console.log(socScore)
+  // console.log(socScore)
 
 }
 // -------------------------------------------------------------------------
