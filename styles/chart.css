@@ -93,12 +93,11 @@
 .prog{
     width: 0.1em;
     height: 0.1em;
-    /* padding-top: 6em;
-    padding-left: 13.5em; */
+    /* padding-top: 13.5em;
+    padding-left: 13em; */
 }
 
 .progPoint{
-
     width: 1em;
     height: 1em;
     /* background-color: rgb(0, 68, 255); */

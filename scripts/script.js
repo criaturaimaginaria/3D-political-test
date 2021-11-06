@@ -178,17 +178,17 @@ function contentNumber (myScore, VeScore, socScore) {
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore >= 14  && VeScore >= 14 ){
+        else if(socScore >= 13 && myScore >= 13.3  && VeScore >= 14 ){
           contNumber = 6
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore >= 14  && VeScore <= 14 && VeScore >= 7  ){
+        else if(socScore >= 13 && myScore >= 13.3  && VeScore <= 14 && VeScore >= 7  ){
           contNumber = 7
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore >= 14  && VeScore <= 7  ){
+        else if(socScore >= 13 && myScore >= 13.3  && VeScore <= 7  ){
           contNumber = 8
           socArrow = progresista
         }
