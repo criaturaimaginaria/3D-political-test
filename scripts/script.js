@@ -61,32 +61,32 @@ function pointPosition (myScore, VeScore, socScore) {
 //here we get the content number to display the data from the content.js file ------
 function contentNumber (myScore, VeScore, socScore) { 
         // if for social score conservative |||||||||||||||||||||||||
-      if(socScore <= 6.6 && myScore <= 6 &&  VeScore >= 14 ){
+      if(socScore <= 6.6 && myScore <= 6.5 &&  VeScore >= 14 ){
         contNumber = 0
         socArrow = conservador
       }
 
-      else if(socScore <= 6.6 && myScore <= 6 &&  VeScore >= 7 &&  VeScore <= 14){
+      else if(socScore <= 6.6 && myScore <= 6.5 &&  VeScore >= 6.5 &&  VeScore <= 14){
         contNumber = 1
         socArrow = conservador
       }
 
-      else if(socScore <= 6.6 && myScore <= 6 &&  VeScore <= 6 ){
+      else if(socScore <= 6.6 && myScore <= 6 &&  VeScore <= 6.5 ){
         contNumber = 2
         socArrow = conservador
       }
 
-      else if(socScore <= 6.6 && myScore >= 7 &&  myScore <= 13 && VeScore >= 14 ){
+      else if(socScore <= 6.6 && myScore >= 6.5 &&  myScore <= 13 && VeScore >= 13.5 ){
         contNumber = 3
         socArrow = conservador
       }
 
-      else if(socScore <= 6.6 && myScore >= 7 &&  myScore <= 13 && VeScore >= 7 && VeScore <= 13 ){
+      else if(socScore <= 6.6 && myScore >= 6.5 &&  myScore <= 13 && VeScore >= 6.5 && VeScore <= 13.5 ){
         contNumber = 4
         socArrow = conservador
       }
 
-      else if(socScore <= 6.6 && myScore >= 7 &&  myScore <= 13 && VeScore <= 7 ){
+      else if(socScore <= 6.6 && myScore >= 6 &&  myScore <= 13.5 && VeScore <= 6.5 ){
         contNumber = 5
         socArrow = conservador
       }
@@ -96,58 +96,60 @@ function contentNumber (myScore, VeScore, socScore) {
         socArrow = conservador
       }
 
-      else if(socScore <= 6.6 && myScore >= 14  && VeScore <= 14 && VeScore >= 7  ){
+      else if(socScore <= 6.6 && myScore >= 14  && VeScore <= 14 && VeScore >= 6.5  ){
         contNumber = 7
         socArrow = conservador
       }
 
-      else if(socScore <= 6.6 && myScore >= 14  && VeScore <= 7  ){
+      else if(socScore <= 6.6 && myScore >= 13.5  && VeScore <= 6.5  ){
         contNumber = 8
         socArrow = conservador
       }
 
       // if for social score middle, |||||||||||||||||||
-      else if(socScore >= 6 && socScore <= 13 && myScore <= 6 &&  VeScore >= 14 ){
+
+//Marxismo clásico      
+      else if(socScore >= 6 && socScore <= 13 && myScore <= 6.5 &&  VeScore >= 14 ){
         contNumber = 0
         socArrow = socialMiddle
       }
-
-      else if(socScore >= 6 && socScore <= 13  && myScore <= 6 &&  VeScore >= 7 &&  VeScore <= 14){
+//Socialismo democrático
+      else if(socScore >= 6 && socScore <= 13  && myScore <= 6.5 &&  VeScore >= 6.5 &&  VeScore <= 14){
         contNumber = 1
         socArrow = socialMiddle
       }
-
-      else if(socScore >= 6 && socScore <= 13  && myScore <= 6 &&  VeScore <= 6 ){
+//Anarco colectivismo
+      else if(socScore >= 6 && socScore <= 13  && myScore <= 6 &&  VeScore <= 6.5 ){
         contNumber = 2
         socArrow = socialMiddle
       }
-
-      else if(socScore >= 6 && socScore <= 13 && myScore >= 7 &&  myScore <= 13 && VeScore >= 14 ){
+//Fascismo clásico
+      else if(socScore >= 6 && socScore <= 13 && myScore >= 6.5 &&  myScore <= 13 && VeScore >= 13.5 ){
         contNumber = 3
         socArrow = socialMiddle
       }
-
-      else if(socScore >= 6 && socScore <= 13  && myScore >= 6.9 &&  myScore <= 14 && VeScore >= 7 && VeScore <= 13 ){
+//Centro
+      else if(socScore >= 6 && socScore <= 13  && myScore >= 6.5 &&  myScore <= 14 && VeScore >= 6.5 && VeScore <= 13.5 ){
         contNumber = 4
         socArrow = socialMiddle
       }
-
-      else if(socScore >= 6 && socScore <= 13 && myScore >= 7 &&  myScore <= 13 && VeScore <= 7 ){
+//mutualismo
+      else if(socScore >= 6 && socScore <= 13 && myScore >= 6 &&  myScore <= 13.5 && VeScore <= 6.5 ){
         contNumber = 5
         socArrow = socialMiddle
       }
-
+//capitalismo iliberal
       else if(socScore >= 6 && socScore <= 13  && myScore >= 14  && VeScore >= 14 ){
         contNumber = 6
         socArrow = socialMiddle
       }
-
-      else if(socScore >= 6 && socScore <= 13  && myScore >= 13.5   && VeScore >= 6.8 && VeScore <= 13 ){
+//liberalismo clasico
+      else if(socScore >= 6 && socScore <= 13  && myScore >= 13.5   && VeScore >= 6.5 && VeScore <= 13 ){
         contNumber = 7
         socArrow = socialMiddle
       }
-
-      else if(socScore >= 6 && socScore <= 13  && myScore >= 14  && VeScore <= 7  ){
+//libertarismo
+      else if(socScore >= 6 && socScore <= 13  && myScore >= 13.5  && VeScore <= 6.5  ){
         contNumber = 8
         socArrow = socialMiddle
       }
@@ -158,27 +160,27 @@ function contentNumber (myScore, VeScore, socScore) {
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore <= 6.5 &&  VeScore >= 7 &&  VeScore <= 13){
+        else if(socScore >= 13 && myScore <= 6.5 &&  VeScore >= 6.5 &&  VeScore <= 13){
           contNumber = 1
           socArrow = progresista
         }
   
-        else if(socScore >= 13&& myScore <= 6.5 &&  VeScore <= 6 ){
+        else if(socScore >= 13&& myScore <= 6.5 &&  VeScore <= 6.5 ){
           contNumber = 2
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore >= 7 &&  myScore <= 13 && VeScore >= 14 ){
+        else if(socScore >= 13 && myScore >= 6.5 &&  myScore <= 13 && VeScore >= 13.5 ){
           contNumber = 3
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore >= 7 &&  myScore <= 13 && VeScore >= 7 && VeScore <= 13 ){
+        else if(socScore >= 13 && myScore >= 6.5 &&  myScore <= 13 && VeScore >= 6.5 && VeScore <= 13.5 ){
           contNumber = 4
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore >= 7 &&  myScore <= 13 && VeScore <= 7 ){
+        else if(socScore >= 13 && myScore >= 6 &&  myScore <= 13.5 && VeScore <= 6.5 ){
           contNumber = 5
           socArrow = progresista
         }
@@ -188,12 +190,12 @@ function contentNumber (myScore, VeScore, socScore) {
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore >= 13.3  && VeScore <= 14 && VeScore >= 7  ){
+        else if(socScore >= 13 && myScore >= 13.3  && VeScore <= 14 && VeScore >= 6.5  ){
           contNumber = 7
           socArrow = progresista
         }
   
-        else if(socScore >= 13 && myScore >= 13.3  && VeScore <= 7  ){
+        else if(socScore >= 13 && myScore >= 13.5  && VeScore <= 6.5  ){
           contNumber = 8
           socArrow = progresista
         }
