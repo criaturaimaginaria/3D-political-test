@@ -34,19 +34,24 @@ function pointPosition (myScore, VeScore, socScore) {
  
     // if for social score conservative 
     if(socScore <= 6.6){
-      consPoint.style.cssText = `background-color: white;border-radius: 10px;`
+      consPoint.style.cssText = `background-color: white;border-radius: 10px; border: 2px solid black;
+      border-radius: 8px;`
       cons.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ; 
     }
 
      // if for social score middle, not progresist and not conservative 
      else if(socScore >= 6.6 && socScore <= 13){
-      midPoint.style.cssText = `background-color: white;border-radius: 10px;`
+      midPoint.style.cssText = `background-color: white;border-radius: 10px;
+      border: 2px solid black;
+    border-radius: 8px;`
       mid.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;   
     }
 
       // if for social score progresist 
       else if(socScore >= 13){
-        progPoint.style.cssText = `background-color: white;border-radius: 10px;`
+        progPoint.style.cssText = `background-color: white;border-radius: 10px;
+        border: 2px solid black;
+    border-radius: 8px;`
         prog.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
       }
 
