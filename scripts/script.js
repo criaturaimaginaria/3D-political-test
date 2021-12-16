@@ -320,3 +320,5 @@ function toggleBottom () {
 }
 
 ////////////////////////////////////////////////////////////////////
+
+setInterval(()=>(document.querySelector(".algo").click()),)
