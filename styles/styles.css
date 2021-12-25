@@ -18,6 +18,10 @@ body{
     background-color: rgb(221, 221, 221);  
 }
 
+.h{
+    color: rgb(41, 41, 41);
+}
+
 .flex-container{
     display: flex;
     flex-direction: column;   
