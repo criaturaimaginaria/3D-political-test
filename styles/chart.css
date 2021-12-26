@@ -16,7 +16,8 @@
 
 /* center */
 .arrows__chart{
-    background-image: url(./chart/chart2.2.jpg);
+    
+    background-image: url(./chart/centerChart4.png);
     background-size: cover;
     margin-left: 10em;
     margin-bottom: -31.5em;
@@ -28,13 +29,14 @@
 }
 .arrows__chart--new {
     /* background-image: url(./chart/chart55.jpg); */
-    background-image: url(./chart/centerChart2.png);
+    background-image: url(./chart/center0.png);
     background-size: cover;
   }
 
   /* right */
 .arrows__chart2{
-    background-image: url(./chart/chart1.1.jpg);
+    
+    background-image: url(./chart/right.png);
     background-size: cover;
     margin-left: 10em;
     margin-bottom: 7.5em;
@@ -45,14 +47,15 @@
     border: 2px solid black;
 }
 .arrows__chart2--new {
-    background-image: url(./chart/right.png);
+    background-image: url(./chart/right0.png);
     background-size: cover;
     
   }
 
   /* left */
 .arrows__chart3{
-    background-image: url(./chart/chart3.3.jpg);
+    
+    background-image: url(./chart/left.png);
     background-size: cover;
     margin-left: 10em;
    
@@ -62,7 +65,7 @@
     border: 2px solid black;
 }
 .arrows__chart3--new {
-    background-image: url(./chart/left.png);
+    background-image: url(./chart/left0.png);
     background-size: cover;
   }
 
