@@ -1,5 +1,5 @@
 .arrows{
-    background-image: url(./chart/arrows.png);
+    background-image: url(./chart/arrows1.png);
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -122,7 +122,7 @@
   }
     .arrows{
         overflow: hidden;
-        background-image: url(./chart/arrows2.png);
+        background-image: url(./chart/arrows2.1.png);
         background-size: cover;
         height: 48rem;
         width: 42rem;
