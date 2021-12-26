@@ -126,26 +126,27 @@
         background-size: cover;
         height: 48rem;
         width: 42rem;
-        margin-top: 5em;
+        /* padding-top: 10em; */
+        margin-top: 2em;
         margin-left: 1em;
     }
     
     /* 1 */
     .arrows__chart2{
-        margin-top: -8em;
+        margin-top: -0em;
         margin-bottom: 0em;  
         margin-left: 10em;  
     }
     /* 2 */
     .arrows__chart{
-        margin-top: -8em;
+        margin-top: -0em;
         margin-bottom: -19.4em;
         margin-left: 10em;  
     }
 
     /* 3 */
     .arrows__chart3{
-         margin-left: 10em;
+        margin-left: 10em;
         margin-top: 15em;
         width: 21em;
         height: 21em; 
