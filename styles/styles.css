@@ -76,13 +76,16 @@ ul li a:hover{
 /* ---******---------*******---- */
 
 .title-container{
+    display: flex;
+    align-items: center;
+    height: 45.5vh;
     width: 100%;
 }
 
 h1{
     font-family: "Lato", sans-serif;
-    margin-top: 8%;
-    margin-left:15%;
+    margin-top: 0%;
+    margin-left:12%;
     color: #fff;
     font-size: 3em;
 }
@@ -93,7 +96,7 @@ section{
     font-size: 16px;
     background-color: rgb(250, 250, 250);
     width: 100%;
-    margin-top: 21vh;
+    margin-top: 0vh;
     margin-left: auto;
     margin-right: auto;
 }
