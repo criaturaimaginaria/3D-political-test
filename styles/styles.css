@@ -73,6 +73,17 @@ ul li a:hover{
     color: #959595;
     text-decoration: none;
 }
+
+/* -------******---------*********--------- */
+
+/* //toggle button in the responsive ( max-width: 640px ) */
+.sidebar{
+    display: none;
+}
+.sidebar-btn{
+    display: none;
+}
+
 /* ---******---------*******---- */
 
 .title-container{

@@ -40,6 +40,101 @@
     .nav__links{
         display:none;
     }
+
+    .sidebar{
+    
+        
+    
+        align-content: center;
+        align-items: center;
+        /* position:relative; */
+        /* top: -250px; */
+        /* left: ; */
+        background: #313131;
+        width: 100%;
+        height: 40%;
+        transition: .3s;
+      }
+      .active{
+        top: 6.3em;  
+        display: block;
+        position: absolute;
+      }
+      .sidebar ul{
+         /* margin: 0; */
+        padding: 10px 0px; 
+      }
+      .sidebar ul li{
+        list-style: none;
+      }
+      .sidebar ul li a{
+        /* display: block; */
+        /* padding: 10px 20px; */
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+      }
+      .sidebar-btn{
+        /* margin-left: auto; */
+        margin-right: 0;
+        align-content: center;
+          display: inline;
+        /* position: absolute; */
+        /* top: 0;
+        right: -50px; */
+        margin-left: auto;
+        margin-right: 0;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: rgba(204, 204, 204, 0);
+      }
+      .sidebar-btn span{
+       
+        display: block;
+        width: 2.3em;
+        height: 0.3em;
+        background: #686868;
+        position: absolute;
+        /* top: 24px; */
+        transition: 0.2s;
+      }
+      .sidebar-btn span:before{
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 0.3em;
+        background: #686868;
+        transition: 0.2s;
+      }
+      .sidebar-btn span:after{
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        height: 0.3em;
+        background: #686868;
+        transition: 0.2s;
+      }
+      .sidebar-btn.toggle span{
+        background: transparent;
+      }
+      .sidebar-btn.toggle span:before{
+        top: 0;
+        transform: rotate(45deg);
+      }
+      .sidebar-btn.toggle span:after{
+        top: 0;
+        transform: rotate(-45deg);
+      }
+      
+      
 }
 
 

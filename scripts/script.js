@@ -321,3 +321,10 @@ function toggleBottom () {
 
 ////////////////////////////////////////////////////////////////////
 
+//toggle button in the responsive ( max-width: 640px )
+function toggleSidebar(){
+  const box = document.getElementById('sidebar');
+  box.classList.toggle("active");
+   const btn = document.getElementById('sidebar-btn');
+  btn.classList.toggle("toggle");
+}
