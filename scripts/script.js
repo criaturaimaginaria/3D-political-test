@@ -236,7 +236,8 @@ const chartToggleNew = document.querySelector('.toggle-button.new');
 function contentDisplay(socArrow) { 
 
   document.getElementById("result").innerHTML = ` <br>  <B> ${(socArrow.name)} </B>  <br> 
- <p> ${(socArrow.description)} </p> <br>  <img src="${(socArrow.symbol)}" class="symbol" > `
+  <img src="${(socArrow.symbol)}" class="symbol" <br> 
+   <p> ${(socArrow.description)} </p> <br>  `
 
  chartToggle.style.cssText = `display: inline;`
  chartToggleNew.style.cssText = `display: inline;`
