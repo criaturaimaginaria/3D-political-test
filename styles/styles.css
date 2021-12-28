@@ -249,7 +249,32 @@ section p {
 
 /* buttons!!!!!!!!! */
 .toggle-button{
+    color: #fff;
     display: none;
+    margin: 0 7px;
+border: solid 1px #d3d3d3;
+padding: 0 15px;
+outline: 0;
+
+font-size: 11px;
+text-decoration: none;
+white-space: nowrap;
+word-wrap: normal;
+line-height: 28px;
+vertical-align: middle;
+cursor: pointer;
+border-radius: 4px;
+
+background-color: #ea9c15;
+transition: 0.2s;
+}
+.toggle-button:hover{
+    color: rgb(53, 8, 0);
+    display: none;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    background-color: #fff;
+    transition: 0.1s;
 }
 /* ////////////////////// */
 
