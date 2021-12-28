@@ -79,7 +79,8 @@
         cursor: pointer;
         color: #686868;
         text-decoration: none;
-        border-bottom: 1px solid rgba(0,0,0,0.2);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        ;
       }
 
       ul li a:hover{
@@ -179,17 +180,25 @@ nav{
     margin-right: 1.1em;
   }
 
+  .sidebar ul li a{
+    font-size: 2.26em;
+    margin: 0px;
+    padding-left: 1em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    width: 100%; 
+  }
+/* -------------------------------------------- */
   .title-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25.3vh;
-    
+      align-content: center;
+      justify-content: center;
+      height: 51vh;
  }
 
  h1{
+     font-size: 5.5em;
      /* margin-top: 50%; */
-     margin-left: 0em;
+     margin: 0em;
  }
 
 
@@ -213,7 +222,6 @@ nav{
     
     section{
         width: 100%;
-        margin-top: 36.5vh;
     }
     
     .questions{
