@@ -129,7 +129,6 @@
         font-size: 10px;
     }
     .arrows{
-        background-image: url(./chart/arrows1.png);
         margin-top: 2em;
         margin-left: auto;
         margin-right: auto;
@@ -150,7 +149,7 @@
       /* left */
     .arrows__chart3{
          /* margin-bottom: -4em; */
-         margin-top: 10em; 
+         margin-top: 9em; 
     }
 
 }
