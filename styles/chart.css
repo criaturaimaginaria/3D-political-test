@@ -116,6 +116,47 @@
 
 /* responsive /////////////////////////////////////// */
 
+@media only screen and (max-width: 700px ){
+
+    .arrows{
+        margin-left: 1%;
+    }
+
+}
+@media only screen and (max-width: 655px ){
+
+    *{
+        font-size: 10px;
+    }
+    .arrows{
+        background-image: url(./chart/arrows1.png);
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* center */
+    .arrows__chart{
+    margin-bottom: -28.6em;
+    margin-top: 2em;
+    }
+
+      /* right */
+    .arrows__chart2{
+        margin-bottom: 8em;
+        margin-top: 4em;
+    }
+    
+      /* left */
+    .arrows__chart3{
+         /* margin-bottom: -4em; */
+         margin-top: 10em; 
+    }
+
+}
+
+
+
 @media only screen and (max-width: 415px ){
   *{
       font-size: 8px;
