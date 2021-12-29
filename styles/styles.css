@@ -105,18 +105,18 @@ section{
     font-family: "Lato", Sans-serif;
     font-weight: 500;
     font-size: 16px;
-    background-color: rgb(250, 250, 250);
+    background-color: #ffffff;
     width: 100%;
     margin-top: 0vh;
-    margin-left: auto;
+   margin-left: auto; 
     margin-right: auto;
 }
 
 .title-description{
     font-family: Arial;
     margin-top: 2em;
-    margin-left: 2.5em;
-    width: 70vw;
+    margin-left: 4em;
+    width: 75vw;
 }
 
 .title-description p{
@@ -140,7 +140,7 @@ h2{
     justify-content: center;
     width: 100%;
     height: 0.3em;
-    margin-bottom: 0.8em;
+    margin-bottom: 1.5em;
 }
 
 .divide__child{
@@ -160,7 +160,8 @@ h2{
     background-color: rgb(236, 236, 236);
     color: rgb(0, 0, 0);
     cursor: pointer;
-    margin-left: 1.5em;
+    margin-top: 1em;
+    margin-left: 2.8em;
     width: 70%;
     text-align: left;
     border: 1px solid rgb(53, 53, 53);
@@ -195,10 +196,13 @@ border-bottom: none;
 
 .content a{
     font-size: 1.2em;
-    background-color: #fff;
+    background-color: #fbf5e5;
     padding-top: 0.5em;
     padding-left: 0.5em;
     padding-bottom: 0.5em;
+}
+.content a:hover{
+    background-color: #faefd0;
 }
 
 /*----- Section Content -----*/
@@ -214,6 +218,10 @@ display: none;
     padding: 0.1em;
 }
 
+.section-content label:hover{
+    background-color: #f8edd3;
+}
+
 /* ----*********************************************------- */
 
 
@@ -227,7 +235,7 @@ display: none;
 }
 
 .btn{
-    margin: 0.5em 0em 0.5em 0em;
+    margin: 0.5em 0em 0.5em 3em;
     font-size: 1em;
     font-weight: 600;
 line-height: 1;
@@ -247,8 +255,13 @@ text-align: center;
     border: #e3ad31;
 }
 
+.result-box{
+    margin-left: 3em;
+}
+
 h3{
     font-size: 1em;
+    margin-left: 3em;
 }
 
 section B {
@@ -269,11 +282,13 @@ section p {
 .toggle-button{
     color: #fff;
     display: none;
-    margin: 0 7px;
+    
+    margin: 0em 0.4em 0em 0em;
 border: solid 1px #d3d3d3;
 padding: 0 15px;
 outline: 0;
-
+background-color: #ea9c15;
+transition: 0.2s;
 font-size: 11px;
 text-decoration: none;
 white-space: nowrap;
@@ -283,8 +298,8 @@ vertical-align: middle;
 cursor: pointer;
 border-radius: 4px;
 
-background-color: #ea9c15;
-transition: 0.2s;
+
+
 }
 .toggle-button:hover{
     color: rgb(53, 8, 0);
@@ -321,34 +336,6 @@ footer p {
 
 
 /* ------------------------ */
-
-/* .accordeon{
-    background-color: rgb(236, 236, 236);
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    padding: 0.5em;
-    width: 70vw;
-    text-align: left;
-    border: 1px solid rgb(53, 53, 53);
-    transition: all 0.5s;
-    font-size: 1.5em;
-    outline: none;
-}
-.active, .accordeon:hover{
-    background-color: #d8d8d8;
-}
-.accordeon__panel{
-   font-size: 16px;
-    background-color: #fff;
-    overflow: hidden;
-    max-height:0;
-    transition: max-height 0.5s ease-out;
-    width: 70vw;
-}
-
-.accordeon__panel label{
-    font-size: 1.3em;
-} */
 
 
 
