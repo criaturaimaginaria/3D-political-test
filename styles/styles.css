@@ -301,10 +301,8 @@ line-height: 28px;
 vertical-align: middle;
 cursor: pointer;
 border-radius: 4px;
-
-
-
 }
+
 .toggle-button:hover{
     color: rgb(53, 8, 0);
     display: none;
