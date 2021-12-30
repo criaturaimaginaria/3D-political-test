@@ -164,7 +164,8 @@ h2{
     margin-left: 2.8em;
     width: 70%;
     text-align: left;
-    border: 1px solid rgb(53, 53, 53);
+    /* border: 1px solid rgb(53, 53, 53);
+    border-radius: 8px 9px 15px 8px; */
     font-size: 1.5em;
 }
 
@@ -194,12 +195,17 @@ text-decoration: none;
 border-bottom: none;
 }
 
+.content{
+    background-color: #ffffff;
+}
+
 .content a{
     font-size: 1.4em;
     background-color: #fffefa;
     padding-top: 0.5em;
     padding-left: 0.5em;
     padding-bottom: 0.5em;
+    border-radius: 12px;
 }
 .content a:hover{
     background-color: #f5f3ed;
