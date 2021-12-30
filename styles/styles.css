@@ -42,7 +42,6 @@ nav{
 .nav__inicio:hover {
     color: #e9bd5a;
     text-decoration: none;
-    font-size: 1.5em;
 }
 nav div{
     display: flex; 
