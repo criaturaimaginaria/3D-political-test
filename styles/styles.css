@@ -191,9 +191,7 @@ h2{
 text-decoration: none;
 }
 
-.content:last-child .title {
-border-bottom: none;
-}
+
 
 .content{
     background-color: #ffffff;
@@ -202,10 +200,11 @@ border-bottom: none;
 .content a{
     font-size: 1.4em;
     background-color: #fffefa;
+    /* margin: 1px; */
     padding-top: 0.5em;
     padding-left: 0.5em;
     padding-bottom: 0.5em;
-    border-radius: 12px;
+    border-radius: 8px 8px 8px 8px;
 }
 .content a:hover{
     background-color: #f5f3ed;

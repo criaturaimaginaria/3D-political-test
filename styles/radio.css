@@ -27,15 +27,15 @@ label:before {
   margin: 0rem 0em 0em 0em;
   transition: 0.1s ease-in;
   background: transparent url("big-circle.svg") no-repeat center; 
-  border: 2px solid #00608d;
+  border: 2px solid #686868;
 }
 
 
 input[type=radio]:checked + label:before {
-  /* margin-left: 0.1em; */
+  margin-left: 0.1em;
 
     /* content: "⬤";
-  color: rgb(255, 0, 0);  */
-    background: transparent url("smal-circle.svg") no-repeat center; 
+  color: rgb(255, 0, 0);   */
+   background: transparent url("smal-circle.svg") no-repeat center;  
     
 }
