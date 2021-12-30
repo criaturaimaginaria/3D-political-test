@@ -136,20 +136,20 @@
 
     /* center */
     .arrows__chart{
-    margin-bottom: -28.6em;
+    margin-bottom: -23em;
     margin-top: 2em;
     }
 
       /* right */
     .arrows__chart2{
-        margin-bottom: 8em;
-        margin-top: 4em;
+        margin-bottom: 11.5em;
+        margin-top: 1.4em;
     }
     
       /* left */
     .arrows__chart3{
-         /* margin-bottom: -4em; */
-         margin-top: 9em; 
+         margin-bottom: -5em;
+         margin-top: 0em; 
     }
 
 }
