@@ -180,10 +180,9 @@ h2{
     border: 1px solid rgba(0, 0, 0, 0.287);
     font-size: 1.5em;
     transition:0.1s; 
-}
-.title{
     text-decoration: none;
 }
+
 
 .title.active, .title:hover {
     background-color: #e9d49b;
