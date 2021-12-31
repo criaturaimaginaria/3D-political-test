@@ -304,7 +304,7 @@ border-radius: 4px;
 }
 
 .toggle-button:hover{
-    color: rgb(53, 8, 0);
+    color: rgb(32, 32, 32);
     display: none;
     outline: none;
     box-shadow: 0 1px 0 rgba(0,0,0,0.05);

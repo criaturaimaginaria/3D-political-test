@@ -17,7 +17,7 @@ label:hover {
 }
 
 label:before {
-  border-radius: 15px;
+  border-radius: 20px;
     display: inline-block;
 	content: "";
 	width: 1em;
@@ -33,9 +33,8 @@ label:before {
 
 input[type=radio]:checked + label:before {
   margin-left: 0.1em;
-
+  border: 2px solid #e6c781;
     /* content: "⬤";
   color: rgb(255, 0, 0);   */
    background: transparent url("smal-circle.svg") no-repeat center;  
-    
 }
