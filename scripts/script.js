@@ -109,47 +109,47 @@ function contentNumber (myScore, VeScore, socScore) {
       // if for social score middle, |||||||||||||||||||
 
 //Marxismo clásico      
-      else if(socScore >= 6 && socScore <= 13 && myScore <= 6.5 &&  VeScore >= 13.5 ){
+      else if(socScore >= 6.6 && socScore <= 13 && myScore <= 6.5 &&  VeScore >= 13.5 ){
         contNumber = 0
         socArrow = socialMiddle
       }
 //Socialismo democrático
-      else if(socScore >= 6 && socScore <= 13  && myScore <= 6.5 &&  VeScore >= 6.5 &&  VeScore <= 13.5){
+      else if(socScore >= 6.6 && socScore <= 13  && myScore <= 6.5 &&  VeScore >= 6.5 &&  VeScore <= 13.5){
         contNumber = 1
         socArrow = socialMiddle
       }
 //Anarco colectivismo
-      else if(socScore >= 6 && socScore <= 13  && myScore <= 6 &&  VeScore <= 6.5 ){
+      else if(socScore >= 6.6 && socScore <= 13  && myScore <= 6 &&  VeScore <= 6.5 ){
         contNumber = 2
         socArrow = socialMiddle
       }
 //Fascismo clásico
-      else if(socScore >= 6 && socScore <= 13 && myScore >= 6.5 &&  myScore <= 13.5 && VeScore >= 13.5 ){
+      else if(socScore >= 6.6 && socScore <= 13 && myScore >= 6.5 &&  myScore <= 13.5 && VeScore >= 13.5 ){
         contNumber = 3
         socArrow = socialMiddle
       }
 //Centro
-      else if(socScore >= 6 && socScore <= 13  && myScore >= 6.5 &&  myScore <= 13.5 && VeScore >= 6.5 && VeScore <= 13.5 ){
+      else if(socScore >= 6.6 && socScore <= 13  && myScore >= 6.5 &&  myScore <= 13.5 && VeScore >= 6.5 && VeScore <= 13.5 ){
         contNumber = 4
         socArrow = socialMiddle
       }
 //mutualismo
-      else if(socScore >= 6 && socScore <= 13 && myScore >= 6 &&  myScore <= 13.5 && VeScore <= 6.5 ){
+      else if(socScore >= 6.6 && socScore <= 13 && myScore >= 6 &&  myScore <= 13.5 && VeScore <= 6.5 ){
         contNumber = 5
         socArrow = socialMiddle
       }
 //capitalismo iliberal
-      else if(socScore >= 6 && socScore <= 13  && myScore >= 13.5  && VeScore >= 13.5 ){
+      else if(socScore >= 6.6 && socScore <= 13 && myScore >= 13.5  && VeScore >= 13.5 ){
         contNumber = 6
         socArrow = socialMiddle
       }
 //liberalismo clasico
-      else if(socScore >= 6 && socScore <= 13  && myScore >= 13.5   && VeScore >= 6.5 && VeScore <= 13.5 ){
+      else if(socScore >= 6.6 && socScore <= 13  && myScore >= 13.5   && VeScore >= 6.5 && VeScore <= 13.5 ){
         contNumber = 7
         socArrow = socialMiddle
       }
 //libertarismo
-      else if(socScore >= 6 && socScore <= 13  && myScore >= 13.5  && VeScore <= 6.5  ){
+      else if(socScore >= 6.6 && socScore <= 13  && myScore >= 13.5  && VeScore <= 6.5  ){
         contNumber = 8
         socArrow = socialMiddle
       }
