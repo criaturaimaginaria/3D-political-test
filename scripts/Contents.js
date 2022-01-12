@@ -1,14 +1,14 @@
 let conservador =  {
    
         0: {
-          name : "Comunismo cristiano",
-          description: "El comunismo cristiano es una forma de comunismo religioso basado en el cristianismo. Es una teoría teológica y política basada en las enseñanzas de Jesucristo que llevaría a los cristianos a apoyar el comunismo como sistema social ideal",
+          name : "Nacional bolchevismo",
+          description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/comunismoCristiano.png'
         },
 
         1: {
           name: "Socialismo cristiano",
-          description: "fddddddddddddddddddddddddddddddddlpfldps",
+          description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/socialismoCristiano.png'
         },
 
@@ -20,31 +20,31 @@ let conservador =  {
 
         3: {
           name: "Fascismo clerical",
-          description: "buscar info, es franco, pero bueno, tampoo encontré foto de sus simbolos",
+          description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/sin imagen por ahora.png'
         },
 
         4: {
           name: "Centro derecha.",
-          description: "las personas de centro derecha bla bla bla",
+          description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/sin imagen por ahora.png'
         },
 
         5: {
-          name: "Anarco conservadurismo.",
-          description: "el anarco conservadurismo se basa en bla bla",
+          name: "comunismo tradicionalista.",
+          description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/anarcoConservadurismo.png'
         },
 
         6: {
-          name: "Pinochetismo.",
-          description: "el pinochetismo bla bla",
+          name: "Neoreacción (Nrx).",
+          description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/ no se cual es el simbolo'
         },
 
         7: {
           name: "Liberalismo conservador.",
-          description: "el pinochetismo bla bla",
+          description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/ no se cual es el simbolo'
         },
 
@@ -59,38 +59,38 @@ let conservador =  {
 socialMiddle =  {
    
   0: {
-    name : "Marxismo clásico",
-    description: "El marxismo comienza con Marx y bla bla",
+    name : "Marxismo leninismo",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/marxismoClasico.png'
   },
 
   1: {
     name: "Socialismo democrático",
-    description: "socialismo democrático, o social democrácia es cono bla blas",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/socialDemocracia.png'
   },
 
   2: {
-    name: "Anarco colectivismo",
-    description: "tiene que ver con bakunin, pero qu ediferencia hay con el mutualismo ?",
+    name: "Anarco comunismo",
+    description: "tel anarco comunismo bla bla",
     symbol: './styles/symbols/f fffdff.png'
   },
 
   3: {
     name: "Fascismo clásico",
-    description: "es básicamente mussolini el ducce",
+    description: "es básicamente mussolini el ducce ",
     symbol: './styles/symbols/classicFascism.png'
   },
 
   4: {
     name: "Centro",
-    description: "las personas de centro  bla bla bla",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/sin imagen por ahora.png'
   },
 
   5: {
     name: "Mutualismo",
-    description: "el mutualismo  se basa en bla bla",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/mutualismo.png'
   },
 
@@ -108,7 +108,7 @@ socialMiddle =  {
 
   8: {
     name: " libertarismo.",
-    description: "el  libertario es como un liberal etc",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/libertarian.png'
   },
 
@@ -119,7 +119,7 @@ progresista =  {
    
      
   0: {
-    name : "Marxismo leninismo",
+    name : "Comunismo posmarxista",
     description: "El marxismo comienza con Marx y bla bla",
     symbol: './styles/symbols/marxismoClasico.png'
   },
@@ -131,20 +131,20 @@ progresista =  {
   },
 
   2: {
-    name: "Anarco comunismo",
+    name: "posanarquismo",
     description: "el anarco comunismo es bla bla",
     symbol: './styles/symbols/anarcoComunismo.png'
   },
 
   3: {
-    name: "Nacional Socialismo",
-    description: "es basicamento lo de hitler bla bla bla",
+    name: "Tecnocracia progresista",
+    description: "es basicamento techno bla bla bla",
     symbol: './styles/symbols/nacionalSocialismo.png'
   },
 
   4: {
     name: "Centro izquierda",
-    description: "las personas de centro izq bab bla  bla bla bla",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/sin imagen por ahora.png'
   },
 
@@ -155,20 +155,20 @@ progresista =  {
   },
 
   6: {
-    name: "tecnocracia.",
-    description: "vblavlavlalasbla",
+    name: "Jacobinismo.",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/ no se cual es el simbolo'
   },
 
   7: {
     name: "Socio Liberalismo.",
-    description: "defensa de la propiedad privada , libre comercio y libertad personal son lagunas cosas sociales",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/socioLiberalismo.png'
   },
 
   8: {
-    name: " Agorismo.",
-    description: "el agorismo se trata de llegar a la anarquia meiante  la contra eocnomia bla bla",
+    name: "Izquierda libertaria.",
+    description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     symbol: './styles/symbols/agorismo.png'
   },
 }
