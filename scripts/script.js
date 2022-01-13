@@ -238,6 +238,7 @@ function contentDisplay(socArrow) {
   document.getElementById("result").innerHTML = ` <br>  <B> ${(socArrow.name)} </B>  <br> 
   <img src="${(socArrow.symbol)}" class="symbol" <br> 
    <p> ${(socArrow.description)} </p> <br>  `
+  
 
  chartToggle.style.cssText = `display: inline;`
  chartToggleNew.style.cssText = `display: inline;`
