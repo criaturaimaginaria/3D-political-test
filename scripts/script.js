@@ -13,7 +13,7 @@ function fill() {
  let  econPoints = 0
  let poliPoints = 0
  let socialPoints = 0
-  for (let i = 0; i < 25; i++) { 
+  for (let i = 0; i < 30; i++) { 
       Quest[i] = {econPoints,poliPoints,socialPoints}
     } 
 // console.log(Quest)
@@ -217,7 +217,7 @@ function total() {
       politicalPoints = (Quest.map( quest => quest.poliPoints));
       socialPoints = (Quest.map( quest => quest.socialPoints));
 
-      for (let i = 0; i < 25; i++) {
+      for (let i = 0; i < 30; i++) {
            myScore = myScore + questPoints[i];
            VeScore = VeScore + politicalPoints[i];
            socScore = socScore + socialPoints[i];
