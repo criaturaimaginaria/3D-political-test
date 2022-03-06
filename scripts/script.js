@@ -237,7 +237,10 @@ function contentDisplay(socArrow) {
 
   document.getElementById("result").innerHTML = ` <br>  <B> ${(socArrow.name)} </B>  <br> 
   <img src="${(socArrow.symbol)}" class="symbol" <br> 
-   <p> ${(socArrow.description)} </p> <br>  `
+   <p> ${(socArrow.description)} </p> <br> 
+   ${(Quest.map((data, i ) => ` [pol- index=${i} point=${data.poliPoints}]`))} <br>  <br> 
+   ${(Quest.map((data, i ) => ` [ec- index=${i} point=${data.econPoints}]`))} <br>  <br> 
+   ${(Quest.map((data, i )=> ` [soc- index=${i} point=${data.socialPoints}]`))} `
   
 
  chartToggle.style.cssText = `display: inline;`
