@@ -29,7 +29,7 @@
 }
 .arrows__chart--new {
     /* background-image: url(./chart/chart55.jpg); */
-    background-image: url(./chart/centerChart0.png);
+    background-image: url(./chart/clean-center.jpg);
     background-size: cover;
   }
 
@@ -47,7 +47,7 @@
     border: 2px solid black;
 }
 .arrows__chart2--new {
-    background-image: url(./chart/right.png);
+    background-image: url(./chart/clean-right.png);
     background-size: cover;
     
   }
@@ -65,7 +65,7 @@
     border: 2px solid black;
 }
 .arrows__chart3--new {
-    background-image: url(./chart/left.png);
+    background-image: url(./chart/clean-left.png);
     background-size: cover;
   }
 

@@ -242,7 +242,6 @@ function contentDisplay(socArrow) {
    ${(Quest.map((data, i ) => ` [ec- index=${i} point=${data.econPoints}]`))} <br>  <br> 
    ${(Quest.map((data, i )=> ` [soc- index=${i} point=${data.socialPoints}]`))} `
   
-
  chartToggle.style.cssText = `display: inline;`
  chartToggleNew.style.cssText = `display: inline;`
 } 
