@@ -31,7 +31,7 @@ let conservador =  {
         },
 
         5: {
-          name: "comunismo tradicionalista.",
+          name: "Comunalismo tradicionalista.",
           description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/Comunalismo-tradicionalista.png'
         },
