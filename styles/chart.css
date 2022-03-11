@@ -16,7 +16,7 @@
 
 /* center */
 .arrows__chart{
-    background-image: url(./chart/center3.0.jpg);
+    background-image: url(./chart/center4.0.png);
     
     background-size: cover;
     margin-left: 10em;
@@ -35,7 +35,7 @@
 
   /* right */
 .arrows__chart2{
-    background-image: url(./chart/derecha3.0.jpg);
+    background-image: url(./chart/derecha4.0.png);
     
     background-size: cover;
     margin-left: 10em;
@@ -54,7 +54,7 @@
 
   /* left */
 .arrows__chart3{
-    background-image: url(./chart/izquierda3.0.jpg);
+    background-image: url(./chart/izquierda4.0.png);
     
     background-size: cover;
     margin-left: 10em;
