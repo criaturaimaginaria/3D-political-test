@@ -149,9 +149,7 @@ h2{
 
 /* -------------------------------------- */
 
-
 /* -------**********************************************------ */
-
 
 .accordion {
     overflow:hidden;
@@ -185,7 +183,7 @@ h2{
 
 
 .title.active, .title:hover {
-    background-color: #e9d49b;
+background-color: #e9d49b;
 text-decoration: none;
 }
 
@@ -198,7 +196,6 @@ text-decoration: none;
 .content a{
     font-size: 1.4em;
     background-color: #fffefa;
-    /* margin: 1px; */
     padding-top: 0.5em;
     padding-left: 0.5em;
     padding-bottom: 0.5em;
@@ -227,8 +224,6 @@ display: none;
 
 /* ----*********************************************------- */
 
-
-
 .questions{
    text-align:inherit;
     width: 50vw;
@@ -241,10 +236,9 @@ display: none;
     margin: 0.5em 0em 0.5em 3em;
     font-size: 1em;
     font-weight: 600;
-line-height: 1;
-padding: 0.75em 1.5em;
-text-align: center;
-
+    line-height: 1;
+    padding: 0.75em 1.5em;
+    text-align: center;
     background-color: #e3ad31;
     color: #ffffff;
     cursor: pointer;
@@ -285,21 +279,20 @@ section p {
 .toggle-button{
     color: #fff;
     display: none;
-    
     margin: 0em 0.4em 0em 0em;
-border: solid 1px #d3d3d3;
-padding: 0 15px;
-outline: 0;
-background-color: #ea9c15;
-transition: 0.2s;
-font-size: 11px;
-text-decoration: none;
-white-space: nowrap;
-word-wrap: normal;
-line-height: 28px;
-vertical-align: middle;
-cursor: pointer;
-border-radius: 4px;
+    border: solid 1px #d3d3d3;
+    padding: 0 15px;
+    outline: 0;
+    background-color: #ea9c15;
+    transition: 0.2s;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: 28px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .toggle-button:hover{

@@ -8,7 +8,7 @@ const progPoint = document.querySelector(".progPoint")
 const prog = document.querySelector(".prog")
 
 
-// this function gives each of the answers 0 points
+// gives each of the answers 0 points
 function fill() { 
  let  econPoints = 0
  let poliPoints = 0
@@ -27,9 +27,6 @@ function saver(q, econPoints, poliPoints, socialPoints) {
     console.log(Quest)
   } 
   
-
-
-// this function uses the total calculated score to figure out the position of the point
 function pointPosition (myScore, VeScore, socScore) { 
  
     // if for social score conservative 
@@ -207,7 +204,7 @@ function contentNumber (myScore, VeScore, socScore) {
 // -------------------------------------------------------------------------
 
 
- // this function adds the number of points each answer is worth together 
+ // adds the number of points each answer is worth together 
 function total() {  
       let myScore = 0;
       let VeScore = 0;
@@ -275,7 +272,7 @@ $(document).ready(function() {
   });
 
 }); 
-//-------------------------------------------------------- end accordion
+//-------------------------------------------------------- 
 
 
 //Chart toggle buttonss ///////////////////////////////////////////

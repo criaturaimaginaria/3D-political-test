@@ -13,17 +13,15 @@ label {
 
 label:hover {
   background-color: rgb(241, 241, 241);
-    /* border-bottom: 1px solid rgb(19, 19, 19); */
 }
 
 label:before {
   border-radius: 20px;
-    display: inline-block;
+  display: inline-block;
 	content: "";
 	width: 1em;
 	height: 1em;
 	position:relative;
-
   margin: 0rem 0em 0em 0em;
   transition: 0.1s ease-in;
   background: transparent url("big-circle.svg") no-repeat center; 
