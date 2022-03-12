@@ -2,7 +2,7 @@ let conservador =  {
 
         0: {
           name : "Nacional bolchevismo",
-          description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          description: "Lo siento aún no tenemos una descripción para esta ideología. Loem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           symbol: './styles/symbols/Nacional-Bolchevismo.png'
         },
 
