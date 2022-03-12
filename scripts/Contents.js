@@ -91,7 +91,7 @@ socialMiddle =  {
   5: {
     name: "Mutualismo",
     description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    symbol: './styles/symbols/Mutualismo.png'
+    symbol: './styles/symbols/mutualismo.png'
   },
 
   6: {
