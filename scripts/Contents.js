@@ -91,7 +91,7 @@ socialMiddle =  {
   5: {
     name: "Mutualismo",
     description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    symbol: './styles/symbols/mutualismo.png'
+    symbol: './styles/symbols/mutualismo.jpg'
   },
 
   6: {
@@ -163,7 +163,7 @@ progresista =  {
   7: {
     name: "Socio Liberalismo.",
     description: "Lo siento aún no tenemos una descripción para esta ideología. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    symbol: './styles/symbols/socioliberalismo.png'
+    symbol: './styles/symbols/socioliberalismo.jpg'
   },
 
   8: {
