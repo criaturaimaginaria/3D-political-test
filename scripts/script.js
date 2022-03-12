@@ -24,7 +24,7 @@ function fill() {
 function saver(q, econPoints, poliPoints, socialPoints) { 
     q = q-1 ; 
     Quest [q] = {econPoints,  poliPoints, socialPoints }
-    console.log(Quest)
+    // console.log(Quest)
   } 
   
 function pointPosition (myScore, VeScore, socScore) { 
@@ -220,7 +220,7 @@ function total() {
            socScore = socScore + socialPoints[i];
         } 
 
-        console.log(myScore, VeScore, socScore);
+        // console.log(myScore, VeScore, socScore);
         pointPosition(myScore, VeScore, socScore);   
       contentNumber(myScore, VeScore, socScore);     
   
